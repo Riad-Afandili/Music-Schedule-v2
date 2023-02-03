@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        background-color: rgb(226, 226, 226);
+      }
+      .collapsible {
+        background-color: rgb(61, 128, 61);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        padding: 18px;
+        width: 19%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 15px;
+        align-content: center;
+      }
+
+      .active,
+      .collapsible:hover {
+        background-color: #555;
+      }
+
+      .content {
+        padding: 0 18px;
+        display: none;
+        overflow: visible;
+        background-color: rgb(226, 226, 226);
+        position: absolute;
+      }
+
+      table,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        font-size: 20px;
+        width: 700px;
+        text-align: center;
+      }
+
+      h2 {
+        color: rgb(226, 226, 226);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Patricias Music</h1>
+
+    <h3>Different Instruments:</h3>
+    <button type="button" class="collapsible">Violin</button>
+    <div class="content">
+        <table>
+          <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+          </tr>
+  
+          <tr>
+            <th>Violin</th>
+            <td>4-5pm</td>
+            <td>4-5pm</td>
+            <td>➖</td>
+            <td>4-5pm</td>
+            <td>➖</td>
+          </tr>
+        </table>
+    </div>
+    <button type="button" class="collapsible">Piano</button>
+    <div class="content">
+      <table>
+        <tr>
+          <th></th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+
+        <tr>
+          <th>Piano</th>
+          <td>5-6pm</td>
+          <td>5-6pm</td>
+          <td>4-5pm</td>
+          <td>5-6pm</td>
+          <td>4-5pm</td>
+        </tr>
+      </table>
+    </div>
+    <button type="button" class="collapsible">Cello</button>
+    <div class="content">
+      <table>
+        <tr>
+          <th></th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+
+        <tr>
+          <th>Cello</th>
+          <td>➖</td>
+          <td>➖</td>
+          <td>5-6pm</td>
+          <td>➖</td>
+          <td>5-6pm</td>
+        </tr>
+      </table>
+    </div>
+    <button type="button" class="collapsible">
+      All Times
+    </button>
+    <div class="content">
+      <table>
+        <tr>
+          <th></th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+
+        <tr>
+          <th>Violin</th>
+          <td>4-5pm</td>
+          <td>4-5pm</td>
+          <td>➖</td>
+          <td>4-5pm</td>
+          <td>➖</td>
+        </tr>
+
+        <tr>
+          <th>Piano</th>
+          <td>5-6pm</td>
+          <td>5-6pm</td>
+          <td>4-5pm</td>
+          <td>5-6pm</td>
+          <td>4-5pm</td>
+        </tr>
+
+        <tr>
+          <th>Cello</th>
+          <td>➖</td>
+          <td>➖</td>
+          <td>5-6pm</td>
+          <td>➖</td>
+          <td>5-6pm</td>
+        </tr>
+      </table>
+</div>
+
+<h2>.</h2>
+<h2>.</h2>
+<h2>.</h2>
+
+<h3>Different Days:</h3>
+<button type="button" class="collapsible">Monday</button>
+<div class="content">
+    <table>
+      <tr>
+        <th></th>
+        <th>Monday</th>
+      </tr>
+
+      <tr>
+        <th>Violin</th>
+        <td>4-5pm</td>
+      </tr>
+
+      <tr>
+        <th>Piano</th>
+        <td>5-6pm</td>
+      </tr>
+
+      <tr>
+        <th>Cello</th>
+        <td>➖</td>
+      </tr>
+    </table>
+</div>
+<button type="button" class="collapsible">Tuesday</button>
+<div class="content">
+  <table>
+    <tr>
+      <th></th>
+      <th>Tuesday</th>
+    </tr>
+
+    <tr>
+      <th>Violin</th>
+      <td>4-5pm</td>
+    </tr>
+
+    <tr>
+      <th>Piano</th>
+      <td>5-6pm</td>
+    </tr>
+
+    <tr>
+      <th>Cello</th>
+      <td>➖</td>
+    </tr>
+  </table>
+</div>
+<button type="button" class="collapsible">Wednesday</button>
+<div class="content">
+  <table>
+    <tr>
+      <th></th>
+      <th>Wednesday</th>
+    </tr>
+
+    <tr>
+      <th>Violin</th>
+      <td>➖</td>
+    </tr>
+
+    <tr>
+      <th>Piano</th>
+      <td>4-5pm</td>
+    </tr>
+
+    <tr>
+      <th>Cello</th>
+      <td>5-6pm</td>
+    </tr>
+  </table>
+</div>
+<button type="button" class="collapsible">Thursday</button>
+<div class="content">
+  <table>
+    <tr>
+      <th></th>
+      <th>Thursday</th>
+    </tr>
+
+    <tr>
+      <th>Violin</th>
+      <td>4-5pm</td>
+    </tr>
+
+    <tr>
+      <th>Piano</th>
+      <td>5-6pm</td>
+    </tr>
+
+    <tr>
+      <th>Cello</th>
+      <td>➖</td>
+    </tr>
+  </table>
+</div>
+<button type="button" class="collapsible">Friday</button>
+<div class="content">
+  <table>
+    <tr>
+      <th></th>
+      <th>Friday</th>
+    </tr>
+
+    <tr>
+      <th>Violin</th>
+      <td>➖</td>
+    </tr>
+
+    <tr>
+      <th>Piano</th>
+      <td>4-5pm</td>
+    </tr>
+
+    <tr>
+      <th>Cello</th>
+      <td>5-6pm</td>
+    </tr>
+  </table>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+    </script>
+  </body>
+</html>
